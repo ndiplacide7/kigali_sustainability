@@ -1,0 +1,30 @@
+{% extends 'sustainability/base.html' %}
+
+{% block content %}
+<h1>Districts</h1>
+<a href="{% url 'district_create' %}" class="btn btn-primary mb-3">Add District</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Population</th>
+            <th>Area (sq km)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for district in districts %}
+        <tr>
+            <td>{{ district.name }}</td>
+            <td>{{ district.population }}</td>
+            <td>{{ district.area_sqkm }}</td>
+            <td>
+                <a href="{% url 'district_detail' district.pk %}" class="btn btn-sm btn-info">View</a>
+                <a href="{% url 'district_update' district.pk %}" class="btn btn-sm btn-warning">Edit</a>
+                <a href="{% url 'district_delete' district.pk %}" class="btn btn-sm btn-danger">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends 'sustainability/base.html' %}
+
+{% block content %}
+<h1>Sectors</h1>
+<a href="{% url 'sector_create' %}" class="btn btn-primary mb-3">Add Sector</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>District</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for sector in sectors %}
+        <tr>
+            <td>{{ sector.id }}</td>
+            <td>{{ sector.name }}</td>
+            <td>{{ sector.district_id }}</td>
+            <td>
+                <a href="{% url 'sector_detail' sector.pk %}" class="btn btn-sm btn-info">View</a>
+                <a href="{% url 'sector_update' sector.pk %}" class="btn btn-sm btn-warning">Edit</a>
+                <a href="{% url 'sector_delete' sector.pk %}" class="btn btn-sm btn-danger">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

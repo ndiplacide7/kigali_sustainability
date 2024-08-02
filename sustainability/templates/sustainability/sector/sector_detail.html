@@ -1,0 +1,10 @@
+{% extends 'sustainability/base.html' %}
+
+{% block content %}
+<h1>{{ sector.name }}</h1>
+<p><strong>Sector:</strong> {{ sector.name }}</p>
+<p><strong>District:</strong> {{ sector.id }} sq km</p>
+<a href="{% url 'sector_update' sector.pk %}" class="btn btn-warning">Edit</a>
+<a href="{% url 'sector_delete' sector.pk %}" class="btn btn-danger">Delete</a>
+<a href="{% url 'sector_list' %}" class="btn btn-secondary">Back to List</a>
+{% endblock %}

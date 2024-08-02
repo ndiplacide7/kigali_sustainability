@@ -1,0 +1,113 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django migrations
+**/migrations/
+
+# Media
+media/
+mediafiles/
+
+# Static files
+static/
+staticfiles/
+
+# Django admin
+admin.py
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# JetBrains specific
+# User-specific stuff:
+.idea/*/workspace.xml
+.idea/*/tasks.xml
+.idea/dictionaries
+.idea/*/dataSources/
+.idea/*/dataSources.ids
+.idea/*/dataSources.local.xml
+.idea/*/sqlDataSources.xml
+.idea/*/dynamic.xml
+.idea/*/uiDesigner.xml
+.idea/*/usage.statistics.xml
+.idea/*/shelf/
+.idea/*/contentModel.xml
+.idea/*/sqlite
+.idea/*/artifacts
+.idea/modules.xml
+.idea/*.iml
+.idea/**/modules.xml
+.idea/**/other.xml
+.idea/**/resources.xml
+.idea/**/task-tracker.xml
+.idea/**/vcs.xml
+.idea/**/webResources.xml
+.idea/**/assetCatalogFilters.xml
+.idea/**/material_theme.xml
+
+# Comment out if you have a file:
+.idea/**/project-template.json
+
+# IDE - LINUX
+.idea/**/deployment.xml
+.idea/**/ivy.xml
+.idea/**/struts.xml
+.idea/**/teamcity.xml
+.idea/**/watched-resources.xml
+
+# IDE - OSX
+.idea/**/gradle.xml
+.idea/**/gradle-config.xml
+.idea/**/headerManager.xml
+.idea/**/php.xml
+
+# IDE - WINDOWS
+.idea/**/asp.xml
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/drools.xml
+.idea/**/graphs.xml
+.idea/**/hibernate.xml
+.idea/**/page-settings.xml
+.idea/**/plugin-manager.xml
+.idea/**/templates.xml
+.idea/**/vaadin.xml
+.idea/**/windowManager.xml
+
+# Environments
+.env/
+.venv/
+node_modules/
+
+# PyCharm specific
+# Jupyter Notebook
+.idea/**/notebookSettings.xml
+.idea/**/jupyter_notebook_config.py
+.ipynb_checkpoints/
+
+# PyCharm - Mac
+.idea/**/inspectionProfiles/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/assets.xml
+.idea/**/dependencies.xml
+.idea/**/osx.xml
+.idea/**/sqlDataSources.xml
+.idea/**/syncSettings.xml
+.idea/**/watcherTasks.xml
