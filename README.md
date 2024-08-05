@@ -37,7 +37,8 @@ The Kigali Sustainability Dashboard is a Django-based web application designed t
 6. Create a superuser:
      python manage.py createsuperuser
 7. Run the development server:
-     python manage.py runserver
+    <!-- To Specify Port number just add the port number after runserver command EX :  python manage.py runserver 8000 --> 
+    python manage.py runserver 8000
 8. Access the application at `http://localhost:8000`
 
 ## Usage
