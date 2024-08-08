@@ -22,7 +22,7 @@ The Kigali Sustainability Dashboard is a Django-based web application designed t
 ## Installation
 
 1. Clone the repository:
-      git clone https://github.com/yourusername/kigali-sustainability.git
+      git clone URL
       cd kigali-sustainability
 
 2. Create a virtual environment and activate it:
