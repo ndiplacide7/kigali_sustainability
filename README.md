@@ -74,5 +74,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-- Kigali City Council for providing the initial dataset and project requirements
 - Django community for the excellent web framework and documentation   
